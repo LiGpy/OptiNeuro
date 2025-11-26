@@ -14,6 +14,9 @@ The core idea of OptiNeuro is drawn from the synaptic pruning mechanism in devel
 
 This biological paradigm is translated into lens design as follows: OptiNeuro first generates an overcomplete set of candidate lens structures, then progressively prunes low-performance designs while dynamically reallocating computational resources to refine the remaining candidates.
 
+![Fig. 1 Automated lens design inspired by the synaptic pruning mechanism in mammalian neural development.](images/1.png)
+
+
 ## **Methodology**
 
 OptiNeuro formulates lens design as an optimization problem minimizing a Merit Function (MF), which combines image quality metrics (e.g., RMS spot radius) and physical constraints (e.g., focal length, distortion). The framework involves:
