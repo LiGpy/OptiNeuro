@@ -42,17 +42,21 @@ OptiNeuro formulates lens design as an optimization problem minimizing a Merit F
 
 OptiNeuro was benchmarked against a state-of-the-art curriculum learning method. It reduced the average RMS spot radius from 12.506μm (baseline) to 2.506–3.032μm while maintaining distortion below 6% (vs. 12.79% baseline). The design time was shortened from over 10 days to under 4 days.
 
+![Fig. 2 Automated design of a six-element aspheric lens.](images/2.png)
+
 
 
 2. Nine-Element Aspheric Lens Design
 
 In four challenging tasks (A1–A4), OptiNeuro achieved average RMS spot radii comparable to human-designed references (e.g., A1: 1.973–2.158μm vs. 2.135μm for manual design), demonstrating quasi-human-level capability.
 
-
+![Fig. 3 Design results of nine-element aspheric lenses.](images/3.png)
 
 3. Glass-Plastic Hybrid Fisheye Lens Design
 
 For a novel specification (200° FOV, F/2.1, TTL=21.5mm), OptiNeuro explored six design forms (DFs) in parallel. DF1 (GGPGSPPPP) was identified as optimal, with an RMS spot radius of 2.862μm and MTF curves meeting requirements across spatial frequencies.
+
+![Fig. 4 Design results of the glass-plastic hybrid fisheye lens.](images/4.png)
 
 
 
